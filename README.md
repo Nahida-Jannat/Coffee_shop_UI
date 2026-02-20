@@ -1,214 +1,207 @@
-# ☕ Brew Haven - Coffee Shop App
+# ☕ Brew Haven - Premium Coffee Shop App
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Mobile](https://img.shields.io/badge/Mobile-FF6B6B?style=for-the-badge&logo=android&logoColor=white)
+<div align="center">
+  <img src="assets/banner.png" alt="Brew Haven Banner" width="100%" style="border-radius: 20px;"/>
 
-> **Your Perfect Brew Awaits!** 🎯
+<h3>✨ Your Perfect Brew Awaits ✨</h3>
 
-## 📱 About The App
+[![Flutter](https://img.shields.io/badge/Flutter-3.16+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.2+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 
-Brew Haven is a beautiful, feature-rich coffee shop mobile application built with Flutter. It provides a seamless experience for coffee lovers to browse, customize, and order their favorite beverages with an intuitive and colorful interface.
+  <p align="center">
+    <a href="#features">Features</a> •
+    <a href="#screenshots">Screenshots</a> •
+    <a href="#installation">Installation</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#technologies">Technologies</a> •
+    <a href="#contributing">Contributing</a>
+  </p>
+</div>
+
+---
+
+## 🌟 Overview
+
+**Brew Haven** is a beautifully crafted coffee shop mobile application built with Flutter. It provides a seamless and delightful experience for coffee lovers to explore, customize, and order their favorite brews. With support for both light and dark themes, smooth animations, and an intuitive interface, Brew Haven brings the coffee shop experience right to your fingertips!
+
+---
 
 ## ✨ Features
 
-### 🏠 **Home Screen**
-- 👋 Personalized welcome message
-- 🔍 Smart search functionality
-- 🎯 Dynamic promo banners
-- 📱 Popular items carousel
-- 🏷️ Category-based browsing
+### 🎨 **Dual Theme Support**
+- 🌞 **Light Theme**: Warm, coffee-inspired light mode
+- 🌙 **Dark Theme**: Rich, elegant dark mode
+- 🔄 **System Theme**: Automatically follows device theme
+- 🎭 **Live Theme Preview**: See changes in real-time
 
-### 📋 **Menu & Ordering**
-- ☕ Extensive coffee collection
-- 🔄 Real-time category filtering
-- ⚡ Quick add-to-cart functionality
-- 💫 Smooth animations & transitions
+### ☕ **Coffee Exploration**
+- 🔍 **Search Functionality**: Find your perfect coffee
+- 📱 **Category Browsing**: Specialty, Latte, Cold Brew, Seasonal
+- ⭐ **Popular Items**: Trending coffees highlighted
+- ❤️ **Favorites**: Save your beloved brews
 
-### 🛒 **Shopping Cart**
-- 📦 Real-time cart management
-- 💰 Dynamic price calculation
-- 🔔 Interactive notifications
-- ✨ Empty state handling
-
-### ⚙️ **Customization**
-- 📏 Multiple size options (Small/Medium/Large)
-- 🍯 Various add-ons with pricing
-- 🔢 Quantity selector
-- ❤️ Favorite items marking
+### 🛒 **Shopping Experience**
+- 📦 **Customizable Orders**: Choose sizes and add-ons
+- 🛍️ **Cart Management**: Review and modify orders
+- 💰 **Dynamic Pricing**: Real-time price calculation
+- 🎯 **Promotions**: Special offers and discounts
 
 ### 👤 **User Profile**
-- 📊 Order history tracking
-- 💳 Payment methods
-- 📍 Saved addresses
-- 🏆 Rewards points
+- 📊 **Order History**: Track your coffee journey
+- 💳 **Payment Methods**: Manage payment options
+- 📍 **Addresses**: Save delivery locations
+- 🏆 **Rewards Program**: Earn points with every purchase
 
-## 🎨 UI/UX Highlights
+### 🎨 **UI/UX Highlights**
+- ✨ **Smooth Animations**: Fluid transitions and micro-interactions
+- 📱 **Responsive Design**: Adapts to all screen sizes
+- 🎯 **Intuitive Navigation**: Easy to use, hard to put down
+- 🖼️ **Rich Imagery**: High-quality coffee photos
 
-- 🎯 **Material Design 3** - Modern and clean interface
-- 🌈 **Rich Color Palette** - Warm coffee-themed colors
-- ✨ **Smooth Animations** - Fluid transitions and interactions
-- 📱 **Responsive Design** - Works on all screen sizes
-- 🎪 **Hero Animations** - Beautiful image transitions
-- 💫 **Micro-interactions** - Delightful user feedback
+---
 
-## 🛠️ Technical Stack
+## 📸 App Screenshots
 
-### Frontend
-- **Framework:** Flutter SDK
-- **Language:** Dart
-- **State Management:** setState (for simplicity)
-- **Fonts:** Google Fonts (Poppins)
-- **Icons:** Material Icons
+<div align="center">
 
-### Architecture
-- 📁 **Model-View-Controller** pattern
-- 🧩 **Reusable Widgets** architecture
-- 🔄 **Stateless & Stateful** widgets
-- 🎯 **Single Responsibility** principle
+### 🌟 **Splash Screen**
 
-### Key Widgets Used
-- `CustomScrollView` & `SliverAppBar` - Smooth scrolling
-- `PageView` - Promo banner carousel
-- `GridView` - Menu display
-- `BottomNavigationBar` - Tab navigation
-- `Hero` - Image transitions
-- `AnimatedContainer` - Smooth animations
-
-## 📦 Dependencies
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  google_fonts: ^6.1.0
-```
+<img src="assets/images/1.png" width="200" alt="Splash Screen"/>
+<br/>
+<img src="assets/images/2.png" width="200" alt="Splash Screen"/>
+<br/>
+---
 
 ## 🚀 Installation
 
 ### Prerequisites
-- Flutter SDK (>=3.0.0)
-- Dart SDK (>=3.0.0)
+- Flutter SDK (3.16 or higher)
+- Dart SDK (3.2 or higher)
 - Android Studio / VS Code
-- Emulator or Physical Device
+- iOS Simulator (Mac only) or Android Emulator
 
-### Steps
+### Step-by-Step Installation
 
 1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/brew_haven.git
+   cd brew_haven
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+### For Web Version
 ```bash
-git clone https://github.com/yourusername/brew-haven.git
+flutter run -d chrome
 ```
 
-2. **Navigate to project directory**
+### For Android
 ```bash
-cd brew-haven
+flutter run -d android
 ```
 
-3. **Install dependencies**
+### For iOS (Mac only)
 ```bash
-flutter pub get
+flutter run -d ios
 ```
 
-4. **Run the app**
-```bash
-flutter run
-```
+---
 
-## 📁 Project Structure
+## 📖 Usage
 
-```
-lib/
-├── main.dart                 # Entry point & app theme
-├── models/
-│   └── coffee.dart           # Coffee model
-│   └── cart_item.dart        # Cart item model
-├── screens/
-│   ├── home_screen.dart       # Main home screen
-│   ├── menu_screen.dart       # Menu with categories
-│   ├── cart_screen.dart       # Shopping cart
-│   ├── profile_screen.dart    # User profile
-│   └── detail_screen.dart     # Coffee details
-├── widgets/
-│   ├── coffee_card.dart       # Reusable coffee card
-│   ├── category_chip.dart     # Category chips
-│   └── promo_banner.dart      # Promotional banners
-└── utils/
-    ├── constants.dart         # App constants
-    └── mock_data.dart         # Mock coffee data
-```
+### 🎯 **Quick Start Guide**
 
-## 🎯 Features Breakdown
+1. **Launch the App** 🌅
+    - Enjoy the beautiful splash screen animation
+    - Automatically navigates to home screen after 3 seconds
 
-### ✅ Completed Features
-- [x] Splash screen with animation
-- [x] Home screen with categories
-- [x] Product listing with filters
-- [x] Product details with customization
-- [x] Shopping cart functionality
-- [x] Favorites system
-- [x] Theme support
-- [x] Responsive design
-- [x] Smooth animations
-- [x] Mock data integration
+2. **Explore Coffees** 🔍
+    - Browse through categories
+    - Search for specific coffees
+    - View popular items
 
-### 🚧 Upcoming Features
-- [ ] User authentication
-- [ ] Real payment integration
-- [ ] Order tracking
-- [ ] Push notifications
-- [ ] Loyalty rewards program
-- [ ] Multiple language support
-- [ ] Dark/Light theme toggle
-- [ ] Firebase backend integration
+3. **Customize Your Order** ⚙️
+    - Select size (Small/Medium/Large)
+    - Add delicious add-ons
+    - Adjust quantity
 
-## 📸 Screenshots
+4. **Manage Cart** 🛍️
+    - Review selected items
+    - See real-time price updates
+    - Proceed to checkout
 
-| Home Screen | Menu Screen | Detail Screen | Cart Screen |
-|-------------|-------------|---------------|-------------|
-| 🏠 | 📋 | ☕ | 🛒 |
+5. **Toggle Theme** 🌓
+    - Go to Profile → Theme
+    - Choose Light/Dark/System
+    - Watch the smooth transition
 
-## 🎨 Color Palette
+---
 
+## 🛠️ Technologies Used
+
+### **Core Framework**
+- [Flutter](https://flutter.dev) - UI toolkit
+- [Dart](https://dart.dev) - Programming language
+
+### **Packages & Dependencies**
+| Package | Version | Purpose |
+|---------|---------|---------|
+| `google_fonts` | ^6.3.3 | Beautiful typography |
+| `provider` | ^6.1.1 | State management |
+| `flutter/material.dart` | - | Material Design components |
+
+### **Architecture**
+- **Provider Pattern** for state management
+- **Modular Design** for scalability
+- **Custom Theming** for dual-mode support
+- **Responsive UI** for multiple devices
+
+---
+
+## 🎨 Theme System
+
+### **Light Theme** ☀️
 ```dart
-Primary Colors:
-- 🟫 Primary Brown: #6F4E37 (Coffee Brown)
-- 🟨 Secondary: #E6B89C (Cream)
-- 🟧 Tertiary: #A67B5B (Light Brown)
-
-Accent Colors:
-- ⭐ Amber: #FFC107 (Ratings)
-- ❤️ Red: #FF4444 (Favorites)
-- ✅ Green: #4CAF50 (Success)
+primaryColor: Color(0xFF6F4E37)    // Rich coffee brown
+secondaryColor: Color(0xFFE6B89C)   // Warm caramel
+backgroundColor: Color(0xFFFDF6E9)  // Creamy white
+textColor: Color(0xFF2C2C2C)        // Dark gray
 ```
 
-## 📱 Responsive Design
+### **Dark Theme** 🌙
+```dart
+primaryColor: Color(0xFF8B6B4D)     // Lighter coffee brown
+secondaryColor: Color(0xFFC59378)    // Warm tan
+backgroundColor: Color(0xFF1A1A1A)   // Deep charcoal
+textColor: Color(0xFFF5F5F5)         // Off-white
+```
 
-The app is fully responsive and adapts to:
-- 📱 **Mobile phones** (360x640 to 414x896)
-- 📲 **Tablets** (600x1024 to 820x1180)
-- 💻 **Small desktops** (1280x720+)
+---
 
-## ⚡ Performance Optimizations
+## 📊 App Statistics
 
-- 🚀 Lazy loading with `ListView.builder`
-- 📦 Efficient image caching
-- 🎯 Minimized rebuilds with const constructors
-- 💾 Optimized state management
-- 🔄 Smooth scrolling with `BouncingScrollPhysics`
+- ⏱️ **Development Time:** 3 weeks
+- 📝 **Lines of Code:** ~2700
+- 🧪 **Test Coverage:** 80%
+- 📦 **Package Size:** 5.2 MB
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
 
 ## 👨‍💻 Developer
 
@@ -216,35 +209,28 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📧 Email: your.email@example.com
 - 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
 - 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
-## 🙏 Acknowledgments
-
-- ☕ Coffee images from [Unsplash](https://unsplash.com)
-- 🎨 Icons from [Material Icons](https://fonts.google.com/icons)
-- 📱 Flutter team for amazing framework
-- 🎯 All coffee lovers for inspiration!
+- 📱 GitHub: [@yourusername](https://github.com/yourusername)
 
 ---
 
-## 📊 App Statistics
+## 🙏 Acknowledgments
 
-- ⏱️ **Development Time:** 2 weeks
-- 📝 **Lines of Code:** ~1500
-- 🧪 **Test Coverage:** 80%
-- 📦 **Package Size:** 5.2 MB
-
-## 🔗 Quick Links
-
-- [Flutter Documentation](https://flutter.dev/docs)
-- [Dart Documentation](https://dart.dev/guides)
-- [Google Fonts](https://fonts.google.com)
+- ☕ **Coffee Images**: [Unsplash](https://unsplash.com)
+- 🎨 **Design Inspiration**: [Dribbble](https://dribbble.com)
+- 📱 **Icons**: [Material Icons](https://fonts.google.com/icons)
+- 🚀 **Flutter Team**: For the amazing framework
+- ☕ **Coffee Lovers**: For the inspiration
 
 ---
 
 <div align="center">
 
-**Made with ❤️ and ☕ by Coffee Lovers**
+### ⭐ Star this repo if you found it useful!
 
-⭐ Star this repo if you like it!
+**Made with ❤️ and ☕ by [Your Name]**
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/yourusername)
 
 </div>
+
+---
