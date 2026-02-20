@@ -64,14 +64,15 @@
 
 ## 📸 App Screenshots
 
-<div align="center">
+<div>
 
 ### 🌟 **Splash Screen**
 
-<img src="assets/images/1.png" width="200" alt="Splash Screen"/>
+<img src="assets/images/1.png" width="600" alt="Splash Screen"/>
 <br/>
-<img src="assets/images/2.png" width="200" alt="Splash Screen"/>
+<img src="assets/images/2.png" width="600" alt="Splash Screen"/>
 <br/>
+
 ---
 
 ## 🚀 Installation
@@ -223,11 +224,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-<div align="center">
+<div>
 
 ### ⭐ Star this repo if you found it useful!
 
-**Made with ❤️ and ☕ by [Your Name]**
+**Made with ❤️ and ☕ by Nahida **
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/yourusername)
 
