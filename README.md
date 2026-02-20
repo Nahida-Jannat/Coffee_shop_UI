@@ -68,9 +68,9 @@
 
 ### 🌟 **Splash Screen**
 
-<img src="assets/images/1.png" width="600" alt="Splash Screen"/>
+<img src="assets/images/1.png" width="800" alt="Splash Screen"/>
 <br/>
-<img src="assets/images/2.png" width="600" alt="Splash Screen"/>
+<img src="assets/images/2.png" width="800" alt="Splash Screen"/>
 <br/>
 
 ---
