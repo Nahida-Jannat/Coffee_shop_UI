@@ -16,7 +16,6 @@
     <a href="#installation">Installation</a> •
     <a href="#usage">Usage</a> •
     <a href="#technologies">Technologies</a> •
-    <a href="#contributing">Contributing</a>
   </p>
 </div>
 
@@ -203,28 +202,6 @@ textColor: Color(0xFFF5F5F5)         // Off-white
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-## 👨‍💻 Developer
-
-**Your Name**
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- 📱 GitHub: [@yourusername](https://github.com/yourusername)
-
----
-
-## 🙏 Acknowledgments
-
-- ☕ **Coffee Images**: [Unsplash](https://unsplash.com)
-- 🎨 **Design Inspiration**: [Dribbble](https://dribbble.com)
-- 📱 **Icons**: [Material Icons](https://fonts.google.com/icons)
-- 🚀 **Flutter Team**: For the amazing framework
-- ☕ **Coffee Lovers**: For the inspiration
-
----
-
-<div>
 
 ### ⭐ Star this repo if you found it useful!
 
